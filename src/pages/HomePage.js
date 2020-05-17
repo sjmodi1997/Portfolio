@@ -14,6 +14,8 @@ function HomePage(props)
         //console.log(myRef);
         scrollToRef(myRef);
     }
+
+    
     useEffect(() => {
         console.log(myRef.current);
       }, [myRef]);
