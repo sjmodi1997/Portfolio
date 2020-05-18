@@ -22,7 +22,7 @@ app.get('/api',(req, res, next) => {
 });
 
 app.post('/api/email', (req,res,next) => {
-    sendGrid.setApiKey('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');
+    sendGrid.setApiKey('**********************************************'); // actual key can be generated from sendGrind
     const msg = {
         to: 'sjmodi1997.sm@gmail.com',
         from: req.body.email,
