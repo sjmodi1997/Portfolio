@@ -2,8 +2,9 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import siliconvalley from '../assets/images/siliconvalley.jpg';
-import ticTacToe from '../assets/images/tic-tac-toe.jpg';
-import olympic from '../assets/images/olympic.png';
+import Portfolio from '../assets/images/Portfolio2.jpg';
+import ticTacToe from '../assets/images/tic-tac-toe3.png';
+import olympic from '../assets/images/olympic.jpg';
 
 import Card from './Card';
 
@@ -33,10 +34,10 @@ class Carousel extends React.Component
                 },
                 {
                     id: 2,
-                    title: 'Evverest',
-                    subTitle: 'A social network for developers',
-                    imgSrc: siliconvalley,
-                    link: 'https://github.com/garrettlove8/evverest',
+                    title: 'Portfolio',
+                    subTitle: 'A portfolio for software developers',
+                    imgSrc: Portfolio,
+                    link: 'https://github.com/sjmodi1997/Portfolio',
                     selected: false
                 },
             ]

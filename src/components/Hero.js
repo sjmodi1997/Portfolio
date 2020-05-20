@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Fade from 'react-reveal/Fade';
+import ReactTypingEffect from 'react-typing-effect';
 
 function Hero(props)
 {
@@ -16,7 +17,16 @@ function Hero(props)
                         {props.title && <h1 className="display-1 front-weight-bolder">{props.title}</h1>}
                     </Fade>
                     <Fade bottom>
-                        {props.subTitle && <h3 className="display-4 front-weight-light">{props.subTitle}</h3>}
+                        {!props.isMainHeading && props.subTitle && <h3 className="display-5 front-weight-light">{props.subTitle}</h3>}
+                    </Fade>
+                    <Fade bottom>
+                        {props.isMainHeading && 
+                        <ReactTypingEffect
+                            text="Software Developer || Competitive Coder... "
+                            className="typical"
+                            speed="100"
+                            eraseDelay="500000"
+                        />}
                     </Fade>
                     <Fade bottom>
                         {props.text && <h3 className="lead front-weight-light">{props.text}</h3>}    

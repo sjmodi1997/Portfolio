@@ -13,9 +13,9 @@ function Timeline() {
         <Jumbotron className="bg-transparent jumbotron-fluid p-0">
             <Container fluid={true}>
                 <Row className="justify-content-center py-5">
-                    <Col md={4} sm={12}>
+                    {/*<Col md={4} sm={12}>*/}
                         <h1 className="display-1 front-weight-bolder">My Journey</h1>
-                    </Col>
+                    {/*</Col>*/}
                 </Row>
             </Container>
         <VerticalTimeline>

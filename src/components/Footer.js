@@ -2,17 +2,20 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import SocialIcons from '../components/SocialIcons';
 
 function Footer()
 {
     return (
-        <footer className="mt-5">
+        <footer className="footer">
             <Container fluid={true}>
-                <Row className="border-top justify-content-between p-3">
-                    <Col className="p-0" md={3} sm={12}>
-                        Smit Modi
+                <Row className="justify-content-between p-3">
+                    <Col>
                     </Col>
-                    <Col className="p-0 d-flex justify-content-end" md={3}>
+                    <Col className="p-0">
+                        <SocialIcons />
+                    </Col>
+                    <Col className="p-0 d-flex justify-content-end">
                         This site is made by Smit Modi.
                     </Col>
                 </Row>

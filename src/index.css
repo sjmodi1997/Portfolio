@@ -6,8 +6,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: linear-gradient(to right, #6190e8, #a7bfe8);
+  background-image: linear-gradient( 135deg, #65FDF0 10%, #1D6FA3 100%);
 }
-
+footer{
+  width: 100%;
+  /*background: rgb(2,0,36);
+  background: linear-gradient(to right, #6190e8 29%, rgba(167,191,232,1) 49%);*/
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -87,4 +92,56 @@ code {
 .nav-link{
   font-size: 20px;
   margin: 0px;
+}
+.typical{
+  font-size: 1.6rem;
+  font-family: 'Sulphur Point', sans-serif;
+}
+.social-icons{
+  text-align: center;
+}
+
+.fb{
+  margin: 2%;
+  color: white;
+}
+
+.fb:hover{
+  color: #386ddd;
+}
+
+.git{
+  margin: 2%;
+  color: white;
+}
+
+.git:hover{
+  color: #16fa01;
+}
+
+.twitter{
+  margin: 2%;
+  color: white;
+}
+
+.twitter:hover{
+  color: #00acee;
+}
+
+.insta{
+  margin: 2%;
+  color: white;
+}
+
+.insta:hover{
+  color: #c1558b;
+}
+
+.linkedin{
+  margin: 2%;
+  color: white;
+}
+
+.linkedin:hover{
+  color: #0e76a8;
 }

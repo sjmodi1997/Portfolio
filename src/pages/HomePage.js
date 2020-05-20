@@ -22,9 +22,11 @@ function HomePage(props)
 
     return(
         <div>
-            <Hero title="Smit Modi" subTitle="Software Developer" text="Noida"/>
+            <Hero title="Smit Modi" subTitle="Software Developer" text="Noida" isMainHeading="true"/>
             <Container ref={el => { console.log(el); myRef.current = el;}} style={{backgroundColor: 'white',borderRadius: '25px'}} fluid={true}>
+            <div id="Projects">
                 <Hero title={props.title} subTitle={props.subTitle} text={props.text}/>
+                </div>
                 <Carousel />
             </Container>
             <Timeline />
