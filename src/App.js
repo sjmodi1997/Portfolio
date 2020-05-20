@@ -62,8 +62,8 @@ class App extends React.Component {
                   duration= {500}
                 >Projects</LinkR>
                 {/*<Link className="nav-link" to="/projects">Projects</Link>*/}
-                <Link className="nav-link" to="/about">About</Link>
-                <Link className="nav-link" to="/contact">Contact</Link>
+                <Link className="nav-link" to="/about" onClick={this.scrollToTop}>About</Link>
+                <Link className="nav-link" to="/contact" onClick={this.scrollToTop}>Contact</Link>
               </Nav>  
             </Navbar.Collapse>
           </Navbar>
