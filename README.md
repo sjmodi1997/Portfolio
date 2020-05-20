@@ -10,8 +10,11 @@ Implemented Features:
 - fixed navbar
 - all basic pages
 - TimeLine 
+- SocialIcons
+- AutoScroll on Projects
+- ReactTypingEffect
 
 To-Do list
 
-- Auto scroll is crashing while click on project
-- icons of github, insta, phone ,email, LinkedIn at bottom
+- EmailJs
+- Footer changes
