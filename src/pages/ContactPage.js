@@ -3,8 +3,7 @@ import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
-
-import Axios from 'axios';
+import * as emailjs from 'emailjs-com';
 
 class ContactPage extends React.Component
 {
@@ -33,7 +32,8 @@ class ContactPage extends React.Component
         )
     }
 
-    handleSubmit = (event) => {
+    handleSubmit = (event) => 
+    {
         event.preventDefault();
         if(!this.state.message)
         {
@@ -45,31 +45,34 @@ class ContactPage extends React.Component
             }
         );
         
-        Axios.post('http://localhost:3030/api/email',this.state)
-        .then(res => 
-            {
-                if(res.data.success)
-                {
-                    this.setState({
-                        disabled: true,
-                        emailSent: true
-                    })
-                }
-                else
-                {
-                    this.setState({
-                        disabled: false,
-                        emailSent: false
-                    })
-                }
-            })
-        .catch(err => {
+        let templateParams = {
+            from_name: this.state.email,
+            to_name: 'sjmodi1997.sm@gmail.com',
+            subject: 'Web-Contact from ' + this.state.name,
+            message_html: this.state.message,
+        }      
+        emailjs.send(
+            'smit',
+            process.env.REACT_APP_TEMPLET_KEY,
+            templateParams,
+            process.env.REACT_APP_USER_KEY
+        )
+        .then((result) =>
+        {
             this.setState({
-                    disabled: false,
-                    emailSent: false
-                }
-            )
-        })
+                disabled: true,
+                emailSent: true
+            })
+            console.log(result.text);
+        } , 
+        (error) => 
+        {
+            this.setState({
+                disabled: false,
+                emailSent: false
+            })
+            console.log(error.text);
+        });     
     }
 
     render()
