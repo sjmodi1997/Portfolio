@@ -14,8 +14,9 @@ Implemented Features:
 - SocialIcons
 - AutoScroll on Projects
 - ReactTypingEffect
+- EmailJs
 
 To-Do list
 
-- EmailJs
+- support for all devices
 - Footer changes
