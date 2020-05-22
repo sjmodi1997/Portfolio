@@ -1,5 +1,6 @@
 # Portfolio
- 
+This branch is created for implementing emailJs to make portfolio static
+
 I am tryin to build my portfolio using React.js 
 
 It is also using the API from Portfolio-api/ to send an Email using @sendGrind
