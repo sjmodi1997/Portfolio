@@ -18,5 +18,6 @@ Implemented Features:
 
 To-Do list
 
+- change curser on Projects
 - support for all devices
 - Footer changes
