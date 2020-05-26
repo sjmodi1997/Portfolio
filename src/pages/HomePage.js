@@ -26,8 +26,8 @@ function HomePage(props)
             <Container ref={el => { console.log(el); myRef.current = el;}} style={{backgroundColor: 'white',borderRadius: '25px'}} fluid={true}>
             <div id="Projects">
                 <Hero title={props.title} subTitle={props.subTitle} text={props.text}/>
-                </div>
-                <Carousel />
+            </div>
+            <Carousel />
             </Container>
             <Timeline />
         </div>

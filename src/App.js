@@ -31,12 +31,12 @@ class App extends React.Component {
         text: 'Checkout my projects below'
       },
       about: {
-        title: 'About Me'
+        title: 'About.'
       },
       contact: {
         title: 'Meet Me',
         subTitle: "Let’s create your next experience together"
-      }
+      },
     }
   }
   scrollToTop = () =>{
@@ -47,7 +47,7 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p=0" fluid={true}>
-          <Navbar bg="transparent" expand="lg" fix="top" sticky="top">
+          <Navbar className="navbar" expand="lg">
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
