@@ -52,7 +52,7 @@ class App extends React.Component {
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/" onClick={this.scrollToTop}>Home</Link>
-                <LinkR
+                {/*<LinkR
                   className="nav-link"
                   activeClass="active"
                   to="Projects"
