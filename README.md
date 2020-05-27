@@ -15,9 +15,9 @@ Implemented Features:
 - AutoScroll on Projects
 - ReactTypingEffect
 - EmailJs
-
-To-Do list
-
-- change curser on Projects
 - support for all devices
 - Footer changes
+
+To-Do list
+- add a new component of skills
+- add mobile number & email
