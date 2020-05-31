@@ -1,7 +1,7 @@
 //import React from 'react';
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
-import Smit from '../assets/images/Smit2.jpg';
+import Smit from '../assets/images/Smit3.jpg';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
