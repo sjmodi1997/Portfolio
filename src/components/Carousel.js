@@ -18,7 +18,7 @@ class Carousel extends React.Component
             items: [
                 {
                     id: 0,
-                    title: 'Tic-tac-toe',
+                    title: 'Tic-Tac-Toe',
                     subTitle: 'Game with MiniMax Algorithm',
                     imgSrc: ticTacToe,
                     link: 'https://github.com/sjmodi1997/tic-tac-toe-MiniMax-Algo',

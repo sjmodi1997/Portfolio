@@ -15,9 +15,13 @@ Implemented Features:
 - AutoScroll on Projects
 - ReactTypingEffect
 - EmailJs
-
-To-Do list
-
-- change curser on Projects
 - support for all devices
 - Footer changes
+- hover image & link of github in projects
+- Technical skills Table
+
+To-Do list:
+- Hover effect on cards(like Netflix)
+- Change the fonts
+- Change image size in About
+
