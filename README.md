@@ -24,4 +24,3 @@ To-Do list:
 - Hover effect on cards(like Netflix)
 - Change the fonts
 - Change image size in About
-
