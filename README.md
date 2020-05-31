@@ -16,8 +16,11 @@ Implemented Features:
 - ReactTypingEffect
 - EmailJs
 - support for all devices
-- Footer changes
+- Footer change
+- hover image & link of github in projects
+- Technical skills Table
 
-To-Do list
-- add a new component of skills
-- add mobile number & email
+To-Do list:
+- Hover effect on cards(like Netflix)
+- Change the fonts
+- Change image size in About

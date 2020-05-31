@@ -1,5 +1,6 @@
 import React from 'react';
 //import Container from 'react-bootstrap/Container';
+import Button from '@material-ui/core/Button';
 import {useSpring,animated} from 'react-spring';
 
 function CardInfo(props)
@@ -10,7 +11,10 @@ function CardInfo(props)
         <animated.div className="g-card-info" style={style}>
             <p className="g-card-title">{props.title}</p>
             <p className="g-card-sub-title">{props.subTitle}</p>
-            <a href={props.link} target="_blank" rel="noopener noreferrer">View</a>
+            <Button color="primary" href={props.link} className="buttonView">
+                View Details
+            </Button>
+            {/*<a href={props.link} target="_blank" rel="noopener noreferrer">View</a>*/}
         </animated.div>
     );
 }

@@ -18,8 +18,8 @@ class Carousel extends React.Component
             items: [
                 {
                     id: 0,
-                    title: 'Tic-tac-toe',
-                    subTitle: 'with MiniMax Algorithm',
+                    title: 'Tic-Tac-Toe',
+                    subTitle: 'Game with MiniMax Algorithm',
                     imgSrc: ticTacToe,
                     link: 'https://github.com/sjmodi1997/tic-tac-toe-MiniMax-Algo',
                     selected: false
@@ -27,7 +27,7 @@ class Carousel extends React.Component
                 {
                     id: 1,
                     title: 'Olympic',
-                    subTitle: 'Database',
+                    subTitle: 'Database Schema for Olympics',
                     imgSrc: olympic,
                     link: 'https://github.com/sjmodi1997/Olympic-Database',
                     selected: false
@@ -35,7 +35,7 @@ class Carousel extends React.Component
                 {
                     id: 2,
                     title: 'Portfolio',
-                    subTitle: 'A portfolio for software developers',
+                    subTitle: 'A Portfolio for Software Developers',
                     imgSrc: Portfolio,
                     link: 'https://github.com/sjmodi1997/Portfolio',
                     selected: false
@@ -46,7 +46,7 @@ class Carousel extends React.Component
 
     handleCardClick = (id,card) =>
     {
-        console.log(id);    
+        //console.log(id);    
         let items = [...this.state.items];
 
         items[id].selected = items[id].selected ? false : true;
