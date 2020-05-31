@@ -16,7 +16,7 @@ Implemented Features:
 - ReactTypingEffect
 - EmailJs
 - support for all devices
-- Footer changes
+- Footer change
 - hover image & link of github in projects
 - Technical skills Table
 
