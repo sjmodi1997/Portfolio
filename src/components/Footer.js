@@ -12,10 +12,10 @@ function Footer()
                 <Row className="justify-content-between p-3">
                     <Col>
                     </Col>
-                    <Col className="p-0">
+                    <Col className="p-0" md="auto">
                         <SocialIcons />
                     </Col>
-                    <Col className="p-0 d-flex justify-content-end">
+                    <Col className="footerLast">
                         This site is made by Smit Modi.
                     </Col>
                 </Row>

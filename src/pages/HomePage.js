@@ -4,6 +4,8 @@ import Carousel from '../components/Carousel';
 import Timeline from '../components/Timeline';
 import Container from 'react-bootstrap/Container';
 import Basic from '../components/Basic';
+import Skills from '../components/Skills';
+import Table from  '../components/Table';
 
 function HomePage(props)
 {
@@ -26,8 +28,15 @@ function HomePage(props)
             <Container ref={el => { console.log(el); myRef.current = el;}} style={{backgroundColor: 'white',borderRadius: '25px'}} fluid={true}>
             <div id="Projects">
                 <Hero title={props.title} subTitle={props.subTitle} text={props.text}/>
-                </div>
-                <Carousel />
+            </div>
+            <Carousel />
+            </Container>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <Container style={{backgroundColor: 'white',width: '100%'}} fluid={true}>
+                <Table />
+            {/*<Skills />*/}
             </Container>
             <Timeline />
         </div>
