@@ -31,12 +31,12 @@ class App extends React.Component {
         text: 'Checkout my projects below'
       },
       about: {
-        title: 'About'
+        title: 'About Me'
       },
       contact: {
         title: 'Meet Me',
         subTitle: "Let’s create your next experience together"
-      },
+      }
     }
   }
   scrollToTop = () =>{
@@ -47,12 +47,12 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p=0" fluid={true}>
-          <Navbar className="navbar" expand="lg">
+          <Navbar bg="transparent" expand="lg" fix="top" sticky="top">
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle"/>
             <Navbar.Collapse id="navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/" onClick={this.scrollToTop}>Home</Link>
-                {/*<LinkR
+                <LinkR
                   className="nav-link"
                   activeClass="active"
                   to="Projects"
