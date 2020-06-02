@@ -23,7 +23,7 @@ function HomePage(props)
       }, [myRef]);
 
     return(
-        <div>
+        <Container fluid={true}>
             <Hero title="Smit Modi" subTitle="Software Developer" text="Noida" isMainHeading="true"/>
             <Container ref={el => { console.log(el); myRef.current = el;}} style={{backgroundColor: 'white',borderRadius: '25px'}} fluid={true}>
             <div id="Projects">
@@ -39,7 +39,7 @@ function HomePage(props)
             {/*<Skills />*/}
             </Container>
             <Timeline />
-        </div>
+        </Container>
     );
 }
 
