@@ -19,8 +19,8 @@ Implemented Features:
 - Footer change
 - hover image & link of github in projects
 - Technical skills Table
+- Hover effect on cards(like Netflix)
 
 To-Do list:
-- Hover effect on cards(like Netflix)
 - Change the fonts
 - Change image size in About
