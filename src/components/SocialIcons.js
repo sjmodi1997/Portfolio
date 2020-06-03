@@ -26,7 +26,7 @@ function SocialIcons() {
               </a>
             </Col>
             <Col>
-              <a href="https://www.linkedin.com/in/smit-modi-1780ba166/" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/modismit/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon className="linkedin fa-2x" icon={faLinkedin} />
               </a>
             </Col>
