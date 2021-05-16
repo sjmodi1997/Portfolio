@@ -26,10 +26,10 @@ function createData(name, tools) {
 const rows = [
     createData('LANGUAGES', 'C++, C, Java, PHP'),
     createData('FRONTEND', 'ReactJS, HTML, CSS, Material-UI'),
-    createData('BACKEND', 'RESTAPI, Slim, PHP'),
-    createData('DATABASE', 'Postgres'),
+    createData('BACKEND', 'AWS cloud tech, RESTAPI, Slim, PHP'),
+    createData('DATABASE', 'Postgres, Snowflake'),
     createData('ENVIRONMENT', 'Ubuntu, CentOS'),
-    createData('TOOLS', 'Vim, SVN, Git, VSCode'),
+    createData('TOOLS', 'Vim, SVN, Git, VSCode, Conduit'),
 ];
 
 function TableSkills(props) {

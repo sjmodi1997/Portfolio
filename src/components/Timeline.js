@@ -19,11 +19,25 @@ function Timeline() {
                 </Row>
             </Container>
         <VerticalTimeline>
+        <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                //contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
+                date="Nov, 2020 - present"
+                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+                icon={<WorkIcon />}
+            >
+                <h3 className="vertical-timeline-element-title">Technical Analyst</h3>
+                <h4 className="vertical-timeline-element-subtitle">Goldman Sachs, Bengaluru, IND</h4>
+                <p>
+                    Snowflake Pipeline, Java, AWS S3 bucket, Lambdas
+                </p>
+            </VerticalTimelineElement>
             <VerticalTimelineElement
                 className="vertical-timeline-element--work"
                 //contentStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 contentArrowStyle={{ borderRight: '7px solid  rgb(33, 150, 243)' }}
-                date="July, 2019 - present"
+                date="July, 2019 - Oct, 2020"
                 iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
                 icon={<WorkIcon />}
             >
